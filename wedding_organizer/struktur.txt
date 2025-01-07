@@ -1,0 +1,28 @@
+wedding_organizer/
+├── assets/
+│   ├── css/         # File CSS untuk styling
+│   ├── js/          # File JavaScript untuk interaksi
+│   ├── images/      # Gambar statis, termasuk logo atau ikon
+├── includes/
+│   ├── header.php   # Header umum
+│   ├── footer.php   # Footer umum
+│   ├── navbar.php   # Navigasi
+├── pages/
+│   ├── home.php     # Halaman utama
+│   ├── login.php    # Halaman login
+│   ├── register.php # Halaman registrasi
+│   ├── paket.php    # Halaman paket
+│   ├── galeri.php   # Halaman galeri
+│   ├── kontak.php   # Halaman kontak
+│   └── admin/
+│       ├── dashboard.php  # Dashboard admin
+│       ├── paket_manage.php  # Kelola paket
+│       ├── galeri_manage.php # Kelola galeri
+│       └── transaksi.php     # Kelola transaksi
+├── config/
+│   ├── database.php  # Koneksi database
+├── uploads/         # Folder untuk menyimpan file upload
+│   ├── galeri/
+│   └── paket/
+├── index.php         # Entry point
+└── .htaccess         # Pengaturan server
